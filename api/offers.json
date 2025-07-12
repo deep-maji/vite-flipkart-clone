@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Pressure Cookers",
+    "price": "From ₹549",
+    "image": "../assets/pro15.png"
+  },
+  {
+    "title": "Wall Clock",
+    "price": "From ₹149",
+    "image": "../assets/pro16.png"
+  },
+  {
+    "title": "Wardrobe",
+    "price": "From ₹5,490",
+    "image": "../assets/pro17.png"
+  },
+  {
+    "title": "Woks and Kadhais",
+    "price": "Min 50% Off",
+    "image": "../assets/pro18.png"
+  },
+  {
+    "title": "Home Emergency Light",
+    "price": "Min. 40% Off",
+    "image": "../assets/pro19.png"
+  },
+  {
+    "title": "Gas Stoves",
+    "price": "From ₹999",
+    "image": "../assets/pro20.png"
+  },
+  {
+    "title": "TV Units",
+    "price": "From ₹1,999",
+    "image": "../assets/pro21.png"
+  }
+]

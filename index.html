@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+    </title>
+    <link rel="icon" href="/public/assets/icon.png" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Remix Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+        integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./src/css/default.css">
+    <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/css/footer.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-brand">
+            <div class="header-logo">
+                <img src="./public/assets/logo.png" alt="">
+            </div>
+            <div class="header-searchbar">
+                <button class="search-icon-button"><img src="./public/assets/searchicon.svg" alt=""></button>
+                <div class="header-searchbar-container">
+                    <input id="header-searchbar-input" type="text" placeholder="Search for Products, Brands and More">
+                </div>
+            </div>
+        </div>
+        <div class="header-user">
+            <div id="user">
+                <div class="user-inner-container">
+                    <img class="user-icon" src="./public/assets/user.png" alt="">
+                    <p>DEEP</p>
+                    <img class="arrow user-arrow" src="./public/assets/arrow.png" alt="">
+                </div>
+            </div>
+            <div id="cart">
+                <img src="./public/assets/cart.png" alt="">
+                <p>Cart</p>
+            </div>
+            <div id="seller">
+                <img src="./public/assets/seller.png" alt="">
+                <p>Become a Seller</p>
+            </div>
+            <div id="threedots">
+                <img src="./public/assets/threedots.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <div id="main">
+        <div id="main-container">
+            <div class="container categories-main-container">
+                <div class="categories-container">
+                    <div class="categories-inner">
+                        <a href="" class="categories-link">
+                            <div class="categories">
+                                <div class="image-div">
+                                    <img src="./public/assets/cate1.png" alt="">
+                                </div>
+                                <span>Grocery</span>
+                            </div>
+                        </a>
+                        <a href="" class="categories-link">
+                            <div class="categories">
+                                <img src="./public/assets/cate2.png" alt="">
+                                <span>Mobiles</span>
+                            </div>
+                        </a>
+                        <a href="" class="categories-link">
+                            <div class="categories fashion">
+                                <img src="./public/assets/cate3.png" alt="">
+                                <span class="categories-text-arrow">Fashion
+                                    <i class="ri-arrow-down-s-line"></i>
+                                </span>
+                            </div>
+                        </a>
+                        <a href="" class="categories-link">
+                            <div class="categories electronics">
+                                <img src="./public/assets/cate4.png" alt="">
+                                <span class="categories-text-arrow">Electronics
+                                    <i class="ri-arrow-down-s-line"></i>
+                                </span>
+                            </div>
+                        </a>
+                        <a href="" class="categories-link">
+                            <div class="categories furniture">
+                                <img src="./public/assets/cate5.png" alt="">
+                                <span class="categories-text-arrow">Home & Furniture
+                                    <i class="ri-arrow-down-s-line"></i>
+                                </span>
+                            </div>
+                        </a>
+                        <a href="" class="categories-link">
+                            <div class="categories">
+                                <img src="./public/assets/cate6.png" alt="">
+                                <span>Appliances</span>
+                            </div>
+                        </a>
+                        <a href="" class="categories-link">
+                            <div class="categories">
+                                <img src="./public/assets/cate7.png" alt="">
+                                <span>Flight Bookings</span>
+                            </div>
+                        </a>
+                        <a href="" class="categories-link">
+                            <div class="categories toy">
+                                <img src="./public/assets/cate8.png" alt="">
+                                <span class="categories-text-arrow">Beauty, Toys & More
+                                    <i class="ri-arrow-down-s-line"></i>
+                                </span>
+                            </div>
+                        </a>
+                        <a href="" class="categories-link">
+                            <div class="categories wheelers">
+                                <img src="./public/assets/cate9.png" alt="">
+                                <span class="categories-text-arrow">Two Wheelers
+                                    <i class="ri-arrow-down-s-line"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container banner-main-container">
+
+                <div class="banner-container " style="overflow-x: hidden;">
+
+                    <div class="swiper">
+                        <div class="banner-images-container swiper-wrapper">
+                            <div class="swiper-slide"><img src="./public/assets/ban1.png" alt="banner" width="100%">
+                            </div>
+                            <div class="swiper-slide"><img src="./public/assets/ban2.png" alt="banner"></div>
+                            <div class="swiper-slide"><img src="./public/assets/ban3.png" alt="banner"></div>
+                            <div class="swiper-slide"><img src="./public/assets/ban4.png" alt="banner"></div>
+                            <div class="swiper-slide"><img src="./public/assets/ban5.png" alt="banner"></div>
+                            <div class="swiper-slide"><img src="./public/assets/ban6.png" alt="banner"></div>
+                            <div class="swiper-slide"><img src="./public/assets/ban7.png" alt="banner"></div>
+                        </div>
+
+                        <div class="arrows-overlay">
+                            <div class="arrow-icons">
+                                <i class="ri-arrow-left-s-line"></i>
+                            </div>
+                            <div class="arrow-icons">
+                                <i class="ri-arrow-right-s-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-sliders"></div>
+            </div>
+
+            <!-- product-container start -->
+            <div class="container-outter container-flex">
+                <div class="container product-container">
+                    <h2>Best Deals on Smartphones</h2>
+                    <div class="cards-container" id="cards-container-product">
+
+                    </div>
+
+                    <!-- Product template start -->
+                    <template id="cards-template">
+                        <div class="cards">
+                            <div class="cards-img-container">
+                                <img src="" alt="" class="cards-img">
+                            </div>
+                            <div id="cards-title">
+                                <p class="cards-title"></p>
+                            </div>
+                            <div id="cards-info">
+                                <h4 class="cards-info">from 20499*</h4>
+                            </div>
+                        </div>
+                    </template>
+                    <!-- Product template end -->
+                </div>
+
+                <div class="container sideimg-container">
+                    <img src="./public/assets/sideimage2.png" alt="">
+                </div>
+            </div>
+            <!-- product-container End -->
+
+            <!-- Top offers start -->
+            <div class="container top-offers-container">
+                <h2>Top Offers!</h2>
+                <div class="cards-container" id="offer-cards-div">
+                    
+                </div>
+            </div>
+            <!-- Top offers end -->
+
+            <!-- Mini banners start-->
+            <div class="container mini-banners-container">
+                <div class="mini-banners">
+                    <img src="./public/assets/miniban1.png" alt="">
+                    <img src="./public/assets/miniban2.png" alt="">
+                    <img src="./public/assets/miniban3.png" alt="">
+                </div>
+            </div>
+
+            <div class="container mini-banners-container">
+                <div class="mini-banners">
+                    <img src="./public/assets/miniban4.png" alt="">
+                    <img src="./public/assets/miniban5.png" alt="">
+                    <img src="./public/assets/miniban6.png" alt="">
+                </div>
+            </div>
+            <!-- Mini banners end-->
+        </div>
+    </div>
+
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./src/appfunctionality.js"></script>
+    <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>

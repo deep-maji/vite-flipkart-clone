@@ -1,0 +1,32 @@
+[
+  {
+    "model": "Vivo T4 5G",
+    "price": "from 20499*",
+    "image_url": "../assets/pro1.png"
+  },
+  {
+    "model": "Motorola G85 5G",
+    "price": "from 14999*",
+    "image_url": "../assets/pro2.png"
+  },
+  {
+    "model": "Oppo K13 5G",
+    "price": "from 16499*",
+    "image_url": "../assets/pro3.png"
+  },
+  {
+    "model": "Realme P3 5G",
+    "price": "from 15999",
+    "image_url": "../assets/pro4.png"
+  },
+  {
+    "model": "Motorola G45 5G",
+    "price": "from 10999*",
+    "image_url": "../assets/pro5.png"
+  },
+  {
+    "model": "POCO F7 5G",
+    "price": "from 29999*",
+    "image_url": "../assets/pro6.png"
+  }
+]

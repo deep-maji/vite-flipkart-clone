@@ -1,0 +1,68 @@
+/* Deafult Setting Start */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    --sm-max-width: 480px;
+    --md-max-width: 996px;
+    --lg-max-width: 1600px;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#main {
+    background-color: #f1f2f4;
+    margin: auto;
+}
+
+#main-container {
+    background-color: #f1f2f4;
+    padding: 0.2rem 0;
+    margin: 0rem 1rem;
+}
+
+.container-outter {
+    max-width: var(--lg-max-width);
+    margin: 0.25rem auto;
+    background-color: #f1f2f4;
+}
+
+.container {
+    max-width: var(--lg-max-width);
+    /* margin: 0.25rem auto; */
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Deafult Setting End */
+
+@media (max-width: 766px) {
+    #main-container {
+        margin: 0;
+    }
+}
